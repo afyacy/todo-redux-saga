@@ -55,7 +55,7 @@ const TodoItem = ({ todo, deleteTodo, updateTodo }) => {
               deleteTodo(todo.id);
             }}
           >
-            <CgTrash size="25" className="text-gray-400" />
+            <CgTrash size="25" className="text-red-400" />
           </button>
         </div>
       </div>
