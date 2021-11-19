@@ -22,8 +22,8 @@ const Todo = ({
   }, [getTodos]);
   
   return (
-    <div className="flex flex-col gap-5 items-center my-auto h-screen bg-cover">
-      <h1 className="pt-14 text-5xl">Todos</h1>
+    <div className="flex flex-col gap-5 items-center my-auto bg-cover">
+      <h1 className="pt-14 text-5xl text-white">Todos</h1>
       <h3 className="text-gray-500">{new Date().toDateString()}</h3>
 
       <div className="flex flex-col gap-2">
@@ -45,9 +45,6 @@ const Todo = ({
               />
             ))}{" "}
         </div>
-      </div>
-      <div className="flex flex-col gap-3 items-center">
-        
       </div>
     </div>
   );

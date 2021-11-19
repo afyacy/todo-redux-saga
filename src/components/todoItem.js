@@ -22,7 +22,6 @@ const TodoItem = ({ todo, deleteTodo, updateTodo }) => {
           <input
             type="checkbox"
             className="w-6 h-6 text-gray-900 bg-gray-900"
-            //updateTodo={todo.status}
             onClick={() => {
               check();
             }}
